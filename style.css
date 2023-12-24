@@ -65,6 +65,8 @@ body {
     align-self: self-start;
   }
   .avatar {
+    font-size: 14px;
+    font-weight: 600;
     align-self: self-start;
     display: flex;
     justify-content: space-around;
