@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-clr: hsl(47, 88%, 63%);
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  background: var(--primary-clr);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 80vw;
+  height: 60vh;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 1px 1px 1px black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  .img {
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    img {
+      width: 100%;
+    }
+  }
+  strong {
+    align-self: self-start;
+    background-color: var(--primary-clr);
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  p {
+    align-self: self-start;
+    font-weight: 600;
+    color: gray;
+  }
+  h1 {
+    font-size: 27px;
+    align-self: self-start;
+  }
+  .avatar {
+    align-self: self-start;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      margin-right: 10px;
+      width: 45px;
+    }
+  }
+}
+.attribution {
+  position: absolute;
+  bottom: 20px;
+}
+
+@media (min-width: 767px) {
+  .card {
+    width: 400px;
+    height: 600px;
+  }
+}
