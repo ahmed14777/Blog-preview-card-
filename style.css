@@ -85,7 +85,7 @@ body {
 
 @media (min-width: 420px) {
   .card {
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 530px;
   }
 }
